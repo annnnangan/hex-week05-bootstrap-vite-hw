@@ -1,41 +1,86 @@
-<aside class="navbar navbar-expand-lg navbar-light bg-light ms-0 ps-0 vh-100">
-  <div class="container-fluid flex-column align-items-start">
+<aside class="navbar bg-body-tertiary vh-100 col-4">
+  <div class="container-fluid flex-column align-items-start h-100 px-0">
     <div class="menu">
-      <a class="navbar-brand pt-4" href="#">
-        <img src="../assets/images/logo-ANSWER.svg" alt="logo" />
-      </a>
+      <a class="navbar-brand px-4" href="#"
+        ><img
+          src="../assets/images/logo-ANSWER.svg"
+          class="img-fluid"
+          alt="logo"
+      /></a>
 
-      <div id="navbarNav pt-4">
-        <ul class="navbar-nav d-flex flex-column">
-          <li class="nav-item pd-4">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item pd-4">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item pd-4">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link">Disabled</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="navbar-nav py-4">
+        <li class="nav-item">
+          <a
+            class="dashboard nav-link px-4 border-start border-4 text-dark"
+            aria-current="page"
+            href="dashboard.html"
+            ><span class="material-symbols-outlined align-middle pe-3"
+              >analytics</span
+            >Dashboard</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="forum nav-link px-4 border-start border-4 text-dark"
+            href="#"
+            ><span class="material-symbols-outlined align-middle pe-3">
+              forum </span
+            >Question</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="assignment nav-link px-4 border-start border-4 text-dark"
+            href="#"
+            ><span class="material-symbols-outlined align-middle pe-3">
+              assignment </span
+            >Assignment</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="course nav-link px-4 border-left border-start border-4 text-dark"
+            href="#"
+            ><span class="material-symbols-outlined align-middle pe-3">
+              video_library </span
+            >Course</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="admin nav-link px-4 border-start border-left border-4 border-start border-4 text-dark"
+            href="admin.html"
+            ><span class="material-symbols-outlined align-middle pe-3">
+              supervisor_account </span
+            >Admin</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="settings nav-link px-4 border-left border-start border-4 text-dark"
+            href="#"
+            ><span class="material-symbols-outlined align-middle pe-3">
+              settings </span
+            >Settings</a
+          >
+        </li>
+      </ul>
     </div>
 
-    <div class="user d-flex">
-      <div class="pe-3">
+    <div class="d-flex user px-4">
+      <div class="flex-shrink-0">
         <img
           src="../assets/images/andychen.jpeg"
-          alt="profile picture"
-          class="rounded-circle object-fit-cover"
+          alt="profile"
           width="48"
           height="48"
+          class="object-fit-cover rounded-circle"
         />
       </div>
-      <div>
-        <h4>Andy Chan</h4>
-        <p class="text-muted fs-14">andy0401@mail.com</p>
+      <div class="flex-grow-1 ms-3">
+        Andy Chen
+        <small class="fs-14 text-muted">andy0401@mail.com</small>
       </div>
     </div>
   </div>

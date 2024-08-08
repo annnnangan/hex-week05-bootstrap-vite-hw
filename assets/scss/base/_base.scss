@@ -30,6 +30,28 @@ p {
   margin-bottom: 0;
 }
 
-fs-14 {
+.fs-s {
   font-size: 14px;
+}
+
+.py-32 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.px-32 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.pt-32 {
+  padding-top: 32px;
+}
+
+.rounded-xs {
+  border-radius: 2px;
+}
+
+.pointer {
+  cursor: pointer;
 }
