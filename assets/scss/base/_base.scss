@@ -15,6 +15,8 @@ a {
 .code {
   font-family: "Roboto Mono", monspace;
   color: $success;
+  background-color: $light;
+  padding: 0px 4px;
 }
 
 h1,
@@ -32,6 +34,10 @@ p {
 
 .fs-s {
   font-size: 14px;
+}
+
+.fs-xs {
+  font-size: 12px;
 }
 
 .py-32 {
@@ -54,4 +60,20 @@ p {
 
 .pointer {
   cursor: pointer;
+}
+
+.list-group-item.active {
+  border-color: $gray-400;
+}
+
+.border-gray-400 {
+  border: 1px solid $gray-400;
+}
+
+.w-55 {
+  width: 55%;
+}
+
+.w-20 {
+  width: 20%;
 }

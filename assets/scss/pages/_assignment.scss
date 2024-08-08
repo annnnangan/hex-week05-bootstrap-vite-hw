@@ -1,0 +1,21 @@
+.assignment {
+  .assignment-list {
+    .list-group-item:first-child {
+      border-radius: 2px 2px 0px 0px;
+    }
+
+    .list-group-item:last-child {
+      border-radius: 0px 0px 2px 2px;
+    }
+  }
+  ul {
+    list-style-type: none;
+  }
+}
+
+#collapseReply {
+  position: absolute;
+  .card-body {
+    height: 300px;
+  }
+}

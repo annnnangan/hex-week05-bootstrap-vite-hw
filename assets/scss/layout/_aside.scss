@@ -3,5 +3,10 @@
 }
 
 aside .nav-item {
+  transition: 0.3s;
   cursor: pointer;
+  &:hover {
+    transform: translate(0, -5px);
+    transition: 0.3s;
+  }
 }
